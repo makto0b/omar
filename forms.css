@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: 'Cairo', sans-serif;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/galaxy.jpg);
+
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: #F9E0B8;
+}
+
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+p,[for="abtype"],[for="comments"] {
+	margin-bottom: 0;
+	margin-top: 3rem;
+	/* margin: 3rem 0 0 0; */
+}
+fieldset {
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-bottom: 3rem;
+	margin-top: 2rem;
+}
+legend {
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	display: block;
+}
+label {
+	display: block;
+	margin-bottom: 0.3rem;
+}
+textarea {
+	height: 10rem;
+	padding: 1rem;
+}
+select {
+	font-size: 1rem;
+}
+button {
+	font-size: 1rem;
+	margin: 2rem 0;
+	background-color: aqua;
+	color: azure;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 10px;
+}
+button:hover {
+	background-color: maroon;
+	color: green;
+}
+input:not([type="radio"]):not([type="checkbox"]),textarea {
+	display: block;
+	margin-bottom: 1rem;
+	width: 20rem;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 1rem;
+	padding: 0 1rem;
+	border-radius: 10px;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
